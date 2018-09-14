@@ -22,7 +22,7 @@ class PolynomialTest : public ::testing::Test {
    *
    * @param [in] params Coefficients of polynomial
    * @param [in] answer Expected answer
-   * @param [in] description Expected number
+   * @param [in] description Expected root description
    */
   void AssertEqualSolve(const std::vector<double> &params,
                         const std::vector<double> &answer,
@@ -39,7 +39,7 @@ class PolynomialTest : public ::testing::Test {
    *
    * @param [in] params Coefficients of polynomial
    * @param [in] answer Expected answer
-   * @param [in] number Expected number
+   * @param [in] description Expected root description
    * @param [in] error Accepted error
    */
   void AssertNearSolve(const std::vector<double> &params,
