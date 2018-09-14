@@ -1,0 +1,64 @@
+\hypertarget{struct_roots}{}\section{Roots Struct Reference}
+\label{struct_roots}\index{Roots@{Roots}}
+
+
+{\ttfamily \#include $<$Polynomial.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{struct_roots_a42aacf1f673d1f2e8921d8e863662156}\label{struct_roots_a42aacf1f673d1f2e8921d8e863662156}} 
+{\bfseries Roots} (size\+\_\+t number, \mbox{\hyperlink{_polynomial_8h_a4d41a8f81d16e61db1ddcce54a5f2586}{Root\+Description}} description)
+\item 
+\mbox{\Hypertarget{struct_roots_a48a84c78efd399069d70ef6ef1ccd9b9}\label{struct_roots_a48a84c78efd399069d70ef6ef1ccd9b9}} 
+{\bfseries Roots} (const \mbox{\hyperlink{struct_roots}{Roots}} \&other)
+\item 
+\mbox{\Hypertarget{struct_roots_a70ef01b7a2f2abeb3cca93ea5f60a568}\label{struct_roots_a70ef01b7a2f2abeb3cca93ea5f60a568}} 
+bool {\bfseries operator==} (const \mbox{\hyperlink{struct_roots}{Roots}} \&other) const
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double $\ast$const \mbox{\hyperlink{struct_roots_a00965d33c485ae90b7a39897f5d294ca}{roots\+\_\+}}
+\item 
+const size\+\_\+t \mbox{\hyperlink{struct_roots_ad9095b5cdb111b3aa65f3c8a6b2e7ffa}{number\+\_\+}}
+\item 
+const \mbox{\hyperlink{_polynomial_8h_a4d41a8f81d16e61db1ddcce54a5f2586}{Root\+Description}} \mbox{\hyperlink{struct_roots_ac5b01dd8b179332c71dfb2dce785fae0}{description\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\mbox{\hyperlink{struct_roots}{Roots}} with all needed additional info. 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{struct_roots_ac5b01dd8b179332c71dfb2dce785fae0}\label{struct_roots_ac5b01dd8b179332c71dfb2dce785fae0}} 
+\index{Roots@{Roots}!description\+\_\+@{description\+\_\+}}
+\index{description\+\_\+@{description\+\_\+}!Roots@{Roots}}
+\subsubsection{\texorpdfstring{description\+\_\+}{description\_}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{_polynomial_8h_a4d41a8f81d16e61db1ddcce54a5f2586}{Root\+Description}} Roots\+::description\+\_\+}
+
+If algorithm doesn\textquotesingle{}t know how to find roots, it is U\+N\+K\+N\+O\+WN. ~\newline
+ In other case, it says whether the number of roots if finite or not. \mbox{\Hypertarget{struct_roots_ad9095b5cdb111b3aa65f3c8a6b2e7ffa}\label{struct_roots_ad9095b5cdb111b3aa65f3c8a6b2e7ffa}} 
+\index{Roots@{Roots}!number\+\_\+@{number\+\_\+}}
+\index{number\+\_\+@{number\+\_\+}!Roots@{Roots}}
+\subsubsection{\texorpdfstring{number\+\_\+}{number\_}}
+{\footnotesize\ttfamily const size\+\_\+t Roots\+::number\+\_\+}
+
+Number of roots. \begin{DoxyNote}{Note}
+makes sense if description\+\_\+ == F\+I\+N\+I\+TE 
+\end{DoxyNote}
+\mbox{\Hypertarget{struct_roots_a00965d33c485ae90b7a39897f5d294ca}\label{struct_roots_a00965d33c485ae90b7a39897f5d294ca}} 
+\index{Roots@{Roots}!roots\+\_\+@{roots\+\_\+}}
+\index{roots\+\_\+@{roots\+\_\+}!Roots@{Roots}}
+\subsubsection{\texorpdfstring{roots\+\_\+}{roots\_}}
+{\footnotesize\ttfamily double$\ast$ const Roots\+::roots\+\_\+}
+
+Array of roots. \begin{DoxyNote}{Note}
+makes sense if description\+\_\+ == F\+I\+N\+I\+TE 
+\end{DoxyNote}
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{_polynomial_8h}{Polynomial.\+h}}\item 
+src/\mbox{\hyperlink{_polynomial_8cpp}{Polynomial.\+cpp}}\end{DoxyCompactItemize}

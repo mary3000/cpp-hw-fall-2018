@@ -1,0 +1,92 @@
+\hypertarget{_polynomial_8cpp}{}\section{src/\+Polynomial.cpp File Reference}
+\label{_polynomial_8cpp}\index{src/\+Polynomial.\+cpp@{src/\+Polynomial.\+cpp}}
+{\ttfamily \#include $<$utility$>$}\newline
+{\ttfamily \#include $<$tuple$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$cstring$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include \char`\"{}Polynomial.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_roots}{Roots}} \mbox{\hyperlink{_polynomial_8cpp_a1988124967fff7c9c849dadc49f4e472}{Linear\+Solver}} (double a, double b)
+\item 
+double \mbox{\hyperlink{_polynomial_8cpp_a6e3ec224eb61c9ef7f00e42c1f299113}{Determinant}} (double a, double b, double c)
+\item 
+\mbox{\hyperlink{struct_roots}{Roots}} \mbox{\hyperlink{_polynomial_8cpp_a969005121c0923c22a2c9acf3ab19f43}{Quadratic\+Solver}} (double a, double b, double c)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+M\+I\+PT $\vert$ D\+I\+HT $\vert$ 3 course $\vert$ Industrial programming ~\newline
+ Purpose\+: solve polynomial equation up to 2 degree
+
+\begin{DoxyAuthor}{Author}
+Mary Feofanova 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_polynomial_8cpp_a6e3ec224eb61c9ef7f00e42c1f299113}\label{_polynomial_8cpp_a6e3ec224eb61c9ef7f00e42c1f299113}} 
+\index{Polynomial.\+cpp@{Polynomial.\+cpp}!Determinant@{Determinant}}
+\index{Determinant@{Determinant}!Polynomial.\+cpp@{Polynomial.\+cpp}}
+\subsubsection{\texorpdfstring{Determinant()}{Determinant()}}
+{\footnotesize\ttfamily double Determinant (\begin{DoxyParamCaption}\item[{double}]{a,  }\item[{double}]{b,  }\item[{double}]{c }\end{DoxyParamCaption})}
+
+Calculates determinant for the quadratic equation $ ax^2 + bx + c = 0 $
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a} & \\
+\hline
+\mbox{\texttt{ in}}  & {\em b} & \\
+\hline
+\mbox{\texttt{ in}}  & {\em c} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+determinant value
+\end{DoxyReturn}
+\begin{DoxyNote}{Note}
+{\ttfamily a} must not be zero 
+\end{DoxyNote}
+\mbox{\Hypertarget{_polynomial_8cpp_a1988124967fff7c9c849dadc49f4e472}\label{_polynomial_8cpp_a1988124967fff7c9c849dadc49f4e472}} 
+\index{Polynomial.\+cpp@{Polynomial.\+cpp}!Linear\+Solver@{Linear\+Solver}}
+\index{Linear\+Solver@{Linear\+Solver}!Polynomial.\+cpp@{Polynomial.\+cpp}}
+\subsubsection{\texorpdfstring{Linear\+Solver()}{LinearSolver()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_roots}{Roots}} Linear\+Solver (\begin{DoxyParamCaption}\item[{double}]{a,  }\item[{double}]{b }\end{DoxyParamCaption})}
+
+Solves the linear equation $ ax + b = 0 $
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a} & \\
+\hline
+\mbox{\texttt{ in}}  & {\em b} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+{\ttfamily a} must not be zero 
+\end{DoxyNote}
+\mbox{\Hypertarget{_polynomial_8cpp_a969005121c0923c22a2c9acf3ab19f43}\label{_polynomial_8cpp_a969005121c0923c22a2c9acf3ab19f43}} 
+\index{Polynomial.\+cpp@{Polynomial.\+cpp}!Quadratic\+Solver@{Quadratic\+Solver}}
+\index{Quadratic\+Solver@{Quadratic\+Solver}!Polynomial.\+cpp@{Polynomial.\+cpp}}
+\subsubsection{\texorpdfstring{Quadratic\+Solver()}{QuadraticSolver()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_roots}{Roots}} Quadratic\+Solver (\begin{DoxyParamCaption}\item[{double}]{a,  }\item[{double}]{b,  }\item[{double}]{c }\end{DoxyParamCaption})}
+
+Solves the quadratic equation $ ax^2 + bx + c = 0 $
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a} & \\
+\hline
+\mbox{\texttt{ in}}  & {\em b} & \\
+\hline
+\mbox{\texttt{ in}}  & {\em c} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+{\ttfamily a} must not be zero 
+\end{DoxyNote}

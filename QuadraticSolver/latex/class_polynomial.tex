@@ -1,0 +1,66 @@
+\hypertarget{class_polynomial}{}\section{Polynomial Class Reference}
+\label{class_polynomial}\index{Polynomial@{Polynomial}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_polynomial_a4884391c3366097d44556691daa3f942}{Polynomial}} (const std\+::vector$<$ double $>$ \&params)
+\item 
+\mbox{\hyperlink{class_polynomial_a0e0ad9a369edaaae98750da039cbde35}{Polynomial}} (const double params\mbox{[}$\,$\mbox{]}, std\+::size\+\_\+t params\+\_\+size)
+\item 
+\mbox{\hyperlink{struct_roots}{Roots}} \mbox{\hyperlink{class_polynomial_ac1a8732edb10e52f5ff4bba6aee83593}{Solve}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_polynomial_a4884391c3366097d44556691daa3f942}\label{class_polynomial_a4884391c3366097d44556691daa3f942}} 
+\index{Polynomial@{Polynomial}!Polynomial@{Polynomial}}
+\index{Polynomial@{Polynomial}!Polynomial@{Polynomial}}
+\subsubsection{\texorpdfstring{Polynomial()}{Polynomial()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Polynomial\+::\+Polynomial (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ double $>$ \&}]{params }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Creates polynomial with coefficients in the field of the rational numbers. ~\newline
+ E.\+g., \mbox{\hyperlink{class_polynomial}{Polynomial}}(\{0, 1, 2, 3\}) creates $ x^2 + 2x + 3 $
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em params} & Coefficients in the descending order \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em invalid\+\_\+argument} & If some coefficient is inf or NaN \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_polynomial_a0e0ad9a369edaaae98750da039cbde35}\label{class_polynomial_a0e0ad9a369edaaae98750da039cbde35}} 
+\index{Polynomial@{Polynomial}!Polynomial@{Polynomial}}
+\index{Polynomial@{Polynomial}!Polynomial@{Polynomial}}
+\subsubsection{\texorpdfstring{Polynomial()}{Polynomial()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Polynomial\+::\+Polynomial (\begin{DoxyParamCaption}\item[{const double}]{params\mbox{[}$\,$\mbox{]},  }\item[{std\+::size\+\_\+t}]{params\+\_\+size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+C-\/style constructor. \begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_polynomial_a4884391c3366097d44556691daa3f942}{Polynomial\+::\+Polynomial}} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_polynomial_ac1a8732edb10e52f5ff4bba6aee83593}\label{class_polynomial_ac1a8732edb10e52f5ff4bba6aee83593}} 
+\index{Polynomial@{Polynomial}!Solve@{Solve}}
+\index{Solve@{Solve}!Polynomial@{Polynomial}}
+\subsubsection{\texorpdfstring{Solve()}{Solve()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_roots}{Roots}} Polynomial\+::\+Solve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Solves polynomial equation. ~\newline
+ Now implementation can only solve up to 2 degree. ~\newline
+ For more information about answer form, check \mbox{\hyperlink{struct_roots}{Roots}}.
+
+E.\+g., \mbox{\hyperlink{class_polynomial}{Polynomial}}(\{1, -\/2, 1\}).\mbox{\hyperlink{class_polynomial_ac1a8732edb10e52f5ff4bba6aee83593}{Solve()}} is equal to solving $ x^2 - 2x + 1 = 0 $
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{struct_roots}{Roots}} with additional info 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{_polynomial_8h}{Polynomial.\+h}}\item 
+src/\mbox{\hyperlink{_polynomial_8cpp}{Polynomial.\+cpp}}\end{DoxyCompactItemize}
