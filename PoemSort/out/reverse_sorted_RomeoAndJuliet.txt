@@ -29,7 +29,6 @@
     As one dead in the bottom of a tomb:
     Anon comes one with light to ope the tomb;
     But then a noise did scare me from the tomb;
-    Laying PARIS in the tomb
     How if, when I am laid into the tomb,
     Opens the tomb
     Enters the tomb
@@ -39,7 +38,6 @@
     Doth hurry from the fatal cannon's womb.
     That monthly changes in her circled orb,
     Made by the joiner squirrel or old grub,
-    Enter ROMEO and BALTHASAR, with a torch, mattock, & c
     Enter Citizens, & c
     Let me be satisfied, is't good or bad?
     That ever I should live to see thee dead!
@@ -165,7 +163,6 @@
     Life and these lips have long been separated:
     O God!--O nurse, how shall this be prevented?
     And hereabouts he dwells,--which late I noted
-    Enter BALTHASAR, booted
     Tush, thou art deceived:
     To make confession and to be absolved.
     I aim'd so near, when I supposed you loved.
@@ -236,7 +233,6 @@
     On the white wonder of dear Juliet's hand
     My dreams presage some joyful news at hand:
     O, that I were a glove upon that hand,
-    [To JULIET] If I profane with my unworthiest hand
     O brother Montague, give me thy hand:
     To think it was so? O, give me thy hand,
     What sorrow craves acquaintance at my hand,
@@ -414,12 +410,7 @@
     I do beseech you, sir, have patience:
     And bear this work of heaven with patience:
     And let mischance be slave to patience.
-    Exeunt CAPULET, LADY CAPULET, PARIS, and FRIAR LAURENCE
-    Re-enter others of the Watch, with FRIAR LAURENCE
     What, is my daughter gone to Friar Laurence?
-    Enter FRIAR LAURENCE
-    Enter FRIAR LAURENCE
-    Exit FRIAR LAURENCE
     But Romeo's name speaks heavenly eloquence.
     And hear the sentence of your moved prince.
     Thy fault our law calls death; but the kind prince,
@@ -430,7 +421,6 @@
     The roses in thy lips and cheeks shall fade
     Younger than she are happy mothers made.
     And too soon marr'd are those so early made.
-    Enter, at the other end of the churchyard, FRIAR LAURENCE, with a lantern, crow, and spade
     For fair without the fair within to hide:
     Do so, and bid my sweet prepare to chide.
     Ere we may think her ripe to be a bride.
@@ -862,14 +852,6 @@
     I am the youngest of that name, for fault of a worse.
     Nurse!
     Nurse?
-    Enter JULIET and Nurse
-    Exeunt JULIET and Nurse
-    Exeunt all but JULIET and Nurse
-    Enter CAPULET and Nurse
-    Enter LADY CAPULET and Nurse
-    Enter LADY CAPULET and Nurse
-    Exeunt LADY CAPULET and Nurse
-    Exeunt LADY CAPULET and Nurse
     The clock struck nine when I did send the nurse;
     Ay, those attires are best: but, gentle nurse,
     What say'st thou, my dear nurse?
@@ -949,8 +931,6 @@
     For blood of ours, shed blood of Montague.
     Is empty on the back of Montague,--
     Where be these enemies? Capulet! Montague!
-    Enter MONTAGUE and LADY MONTAGUE
-    Exeunt MONTAGUE and LADY MONTAGUE
     This is that banish'd haughty Montague,
     Or to dispraise my lord with that same tongue
     And why, my lady wisdom? hold your tongue,
@@ -994,8 +974,6 @@
     What, rouse thee, man! thy Juliet is alive,
     To make die with a restorative.
     Of this day's journey, and from nine till twelve
-    Re-enter JULIET, above
-    Re-enter JULIET, above
     Exit, above
     Exit, above
     Exit above
@@ -1168,7 +1146,6 @@
     The world affords no law to make thee rich;
     But, like a misbehaved and sullen wench,
     Raise up the Montagues: some others search:
-    Enter PARIS, and his Page bearing flowers and a torch
     Come, is the bride ready to go to church?
     In all her best array bear her to church:
     To go with Paris to Saint Peter's Church,
@@ -1555,6 +1532,19 @@
     No sudden mean of death, though ne'er so mean,
     Speak, nephew, were you by when it began?
     'Hold, friends! friends, part!' and, swifter than
+Second Musician
+Second Musician
+Second Musician
+Third Musician
+First Musician
+First Musician
+First Musician
+First Musician
+First Musician
+First Musician
+First Musician
+First Musician
+First Musician
     Stand up, stand up; stand, and you be a man:
     Digressing from the valour of a man;
     Find thou the means, and I'll find such a man.
@@ -1580,6 +1570,14 @@
     O courteous Tybalt! honest gentleman!
     O, he's a lovely gentleman!
     He bears him like a portly gentleman;
+Second Watchman
+Third Watchman
+First Watchman
+First Watchman
+First Watchman
+First Watchman
+First Watchman
+First Watchman
     In sadness, cousin, I do love a woman.
     Lord, Lord, she will be a joyful woman.
     kind of behavior, as they say: for the gentlewoman
@@ -1615,7 +1613,6 @@
     Amen!
     God ye good morrow, gentlemen.
     Direct my sail! On, lusty gentlemen.
-    Enter CAPULET, LADY CAPULET, Nurse, and two Servingmen
     Say 'better:' here comes one of my master's kinsmen.
     And find delight writ there with beauty's pen;
     Thus I enforce thy rotten jaws to open,
@@ -1625,10 +1622,12 @@
     Unless that husband send it me from heaven
     My husband is on earth, my faith in heaven;
     As daylight doth a lamp; her eyes in heaven
+First Citizen
+First Citizen
+First Citizen
     Where the infectious pestilence did reign,
     Doth couch his limbs, there golden sleep doth reign:
     This same should be the voice of Friar John.
-    Enter FRIAR JOHN
     But he which bore my letter, Friar John,
     called, my young lady asked for, the nurse cursed in
     Pardon, good Mercutio, my business was great; and in
@@ -1784,9 +1783,7 @@
     Romeo!
     Romeo.
     Romeo!
-    Enter FRIAR LAURENCE and ROMEO
     That runaway's eyes may wink and Romeo
-    Enter BENVOLIO and ROMEO
     Hie to your chamber: I'll find Romeo
     Henceforth I never will be Romeo.
     Then say, Jove laughs. O gentle Romeo,
@@ -1804,14 +1801,6 @@
     Who bare my letter, then, to Romeo?
     The form of death: meantime I writ to Romeo,
     Than this of Juliet and her Romeo.
-    Enter ROMEO
-    Enter ROMEO
-    Enter ROMEO
-    Enter ROMEO
-    Enter ROMEO
-    Enter ROMEO
-    Enter ROMEO
-    Enter ROMEO
     Here comes Romeo, here comes Romeo.
     Where is my lady's lord, where's Romeo?
     Welcome from Mantua: what says Romeo?
@@ -1820,7 +1809,6 @@
     She will beshrew me much that Romeo
     Who ever would have thought it? Romeo!
     Exit Romeo
-    Exit ROMEO
     O Romeo, Romeo! wherefore art thou Romeo?
     Ere I again behold my Romeo!
     And there I am. Where is my Romeo?
@@ -1843,17 +1831,10 @@
     Up to the ears. Come, we burn daylight, ho!
     But sadly tell me who.
     Marry, that, I think, be young Petrucio.
-    Exeunt all but MONTAGUE, LADY MONTAGUE, and BENVOLIO
-    Exeunt MERCUTIO and BENVOLIO
-    Exeunt MERCUTIO and BENVOLIO
     Help me into some house, Benvolio,
-    Enter BENVOLIO
-    Re-enter BENVOLIO
     The son and heir of old Tiberio.
     'Tis since the nuptials of Lucentio,
     Which way ran he that kill'd Mercutio?
-    Enter BENVOLIO and MERCUTIO
-    Enter BENVOLIO and MERCUTIO
     Call, good Mercutio.
     Hold, Tybalt! good Mercutio!
     That slew thy kinsman, brave Mercutio.
@@ -1965,9 +1946,6 @@
     An old hare hoar,
     And an old hare hoar,
     But a hare that is hoar
-    Enter ABRAHAM and BALTHASAR
-    Re-enter some of the Watch, with BALTHASAR
-    Exit BALTHASAR
     News from Verona!--How now, Balthasar!
     Enter Nurse, to the chamber
     Your lady mother is coming to your chamber:
@@ -1982,7 +1960,6 @@
     And in their triumph die, like fire and powder,
     I take it, is a gentlemanlike offer.
     Laying down her dagger
-    Snatching ROMEO's dagger
     Yea, noise? then I'll be brief. O happy dagger!
     But chiefly to take thence from her dead finger
     meant, indeed, to occupy the argument no longer.
@@ -2034,11 +2011,7 @@
     sometimes and tell her that Paris is the properer
     Peter!
     Peter!
-    Enter Nurse and PETER
-    Enter Nurse and PETER
     My fan, Peter.
-    Enter PETER
-    Exit PETER
     That we have had no time to move our daughter:
     Madam, good night: commend me to your daughter.
     Receive in either by this dear encounter.
@@ -2180,7 +2153,6 @@
     Come, he hath hid himself among these trees,
     Dies
     Dies
-    Falls on ROMEO's body, and dies
     That's by me wounded: both our remedies
     Within thy help and holy physic lies:
     Hath Death lain with thy wife. There she lies,
@@ -2200,7 +2172,6 @@
     Examine other beauties.
     For here lies Juliet, and her beauty makes
     Drums in his ear, at which he starts and wakes,
-    JULIET wakes
     It is some meteor that the sun exhales,
     The Page whistles
     Ay, a thousand times.
@@ -2310,10 +2281,6 @@
     [Aside] Shall I hear more, or shall I speak at this?
     Forgetting any other home but this.
     How well my comfort is revived by this!
-    Enter FRIAR LAURENCE and PARIS
-    Exeunt CAPULET and PARIS
-    Enter CAPULET, LADY CAPULET, and PARIS
-    Enter Watch, with the Page of PARIS
     O, bid me leap, rather than marry Paris,
     Mercutio's kinsman, noble County Paris!
     If, rather than to marry County Paris,
@@ -2346,7 +2313,6 @@
     True; and therefore women, being the weaker vessels,
     How now! who calls?
     Falls
-    They fight; TYBALT falls
     There is no world without Verona walls,
     With love's light wings did I o'er-perch these walls;
     Our instruments to melancholy bells,
@@ -2365,7 +2331,6 @@
     She will not stay the siege of loving terms,
     Mis-shapen chaos of well-seeming forms!
     Have you importuned him by any means?
-    Enter FRIAR LAURENCE and PARIS, with Musicians
     Or, wanting that, with tears distill'd by moans:
     Not I; unless the breath of heartsick groans,
     When good manners shall lie all in one or two men's
@@ -2425,21 +2390,13 @@
     Is it even so? then I defy you, stars!
     how art thou fishified! Now is he for the numbers
     can lick their fingers.
-    Enter MONTAGUE and others
-    Enter Prince, attended; MONTAGUE, CAPULET, their Wives, and others
-    Enter ROMEO, MERCUTIO, BENVOLIO, with five or six Maskers, Torch-bearers, and others
-    Enter CAPULET, LADY CAPULET, and others
-    Enter TYBALT and others
     No, for then we should be colliers.
     Time out o' mind the fairies' coachmakers.
-    Enter CAPULET, with JULIET and others of his house, meeting the Guests and Maskers
     All forsworn, all naught, all dissemblers.
-    Enter SAMPSON and GREGORY, of the house of Capulet, armed with swords and bucklers
     The cover of the wings of grasshoppers,
     'Signior Martino and his wife and daughters;
     My master's.
     With baleful weeds and precious-juiced flowers.
-    TYBALT under ROMEO's arm stabs MERCUTIO, and flies with his followers
     And bakes the elflocks in foul sluttish hairs,
     The lady stirs.
     Soon sleep in quiet. O, how my heart abhors
@@ -2487,9 +2444,6 @@
     Five times in that ere once in our five wits.
     It strains me past the compass of my wits:
     Of Tybalt deaf to peace, but that he tilts
-    Enter the PRINCE and Attendants
-    Enter PRINCE, with Attendants
-    Enter MERCUTIO, BENVOLIO, Page, and Servants
     Hath had no notice of these accidents;
     Cast by their grave beseeming ornaments,
     To help me sort such needful ornaments
@@ -2577,6 +2531,7 @@
     He that is strucken blind cannot forget
     Unless philosophy can make a Juliet,
     He told me Paris should have married Juliet:
+Romeo and Juliet
     Come, go, good Juliet,
     Or am I mad, hearing him talk of Juliet,
     Came to this vault to die, and lie with Juliet.
@@ -2586,30 +2541,19 @@
     Is father, mother, Tybalt, Romeo, Juliet,
     Forgive me, cousin! Ah, dear Juliet,
     I came to talk of. Tell me, daughter Juliet,
-    Enter JULIET
-    Enter JULIET
-    Enter JULIET
-    Enter JULIET
-    Enter JULIET
-    Enter JULIET
     Romeo, there dead, was husband to that Juliet;
     God forbid! Where's this girl? What, Juliet!
     Hath been my kinsman! O sweet Juliet,
     Why, how now, Juliet!
     I come from Lady Juliet.
-    Enter FRIAR LAURENCE, with a basket
     me a piece of marchpane; and, as thou lovest me, let
     And I'll no longer be a Capulet.
     Is she a Capulet?
     Tybalt, the kinsman of old Capulet,
+Second Capulet
+Second Capulet
     On the fair daughter of rich Capulet:
     Nay, sit, nay, sit, good cousin Capulet;
-    Enter CAPULET
-    Enter CAPULET
-    Enter CAPULET in his gown, and LADY CAPULET
-    Enter LADY CAPULET
-    Enter LADY CAPULET
-    Enter LADY CAPULET
     There shall no figure at such rate be set
     Either be gone before the watch be set,
     But look thou stay not till the watch be set,
@@ -2766,8 +2710,6 @@
     Exit
     Exit
     The life of Tybalt.
-    Enter TYBALT
-    Re-enter TYBALT
     encounter Tybalt?
     Why, what is Tybalt?
     There lies that Tybalt.
@@ -2784,9 +2726,18 @@
     And where the worser is predominant,
     Sleep for a week; for the next night, I warrant,
     Enter a Servant
-    Enter CAPULET, PARIS, and Servant
+Second Servant
+Second Servant
+Second Servant
+Second Servant
+Second Servant
+Second Servant
     Exit Second Servant
     Exit Servant
+First Servant
+First Servant
+First Servant
+First Servant
     Exit First Servant
     Exit First Servant
     true descent;
@@ -3021,8 +2972,6 @@
     Which with sweet water nightly I will dew,
     Alas, that love, so gentle in his view,
     Sweet flower, with flowers thy bridal bed I strew,--
-    JULIET appears above at a window
-    Enter ROMEO and JULIET above, at the window
     By holy marriage: when and where and how
     Were thinly scatter'd, to make up a show.
     Compare her face with some that I shall show,
@@ -3111,6 +3060,7 @@
     Of her awaking, here untimely lay
     I mean, sir, in delay
     The excuse that thou dost make in this delay
+Shakespeare homepage | Romeo and Juliet | Entire play
     Day, night, hour, tide, time, work, play,
     You are welcome, gentlemen! come, musicians, play.
     Tybalt, here slain, whom Romeo's hand did slay;
@@ -3123,7 +3073,6 @@
     Happiness courts thee in her best array;
     Nurse! Wife! What, ho! What, nurse, I say!
     Make haste, I say.
-    [Aside to GREGORY] Is the law of our side, if I say
     O, I cry you mercy; you are the singer: I will say
     Whose names are written there, and to them say,
     Faith, I know not what to say.

@@ -415,7 +415,6 @@
     [Aside] I am almost afraid to stand alone
     [Aside] I would I knew not why it should be slow'd.
     [Aside] Shall I hear more, or shall I speak at this?
-    [Aside to GREGORY] Is the law of our side, if I say
     [Aside] Villain and he be many miles asunder.--
     assembly: whither should they come?
     At my poor house look to behold this night
@@ -776,75 +775,15 @@
     Enough of this; I pray thee, hold thy peace.
     enrich the hand
     Enter a Servant
-    Enter ABRAHAM and BALTHASAR
     Enter Apothecary
-    Enter, at the other end of the churchyard, FRIAR LAURENCE, with a lantern, crow, and spade
-    Enter BALTHASAR, booted
-    Enter BENVOLIO
-    Enter BENVOLIO and MERCUTIO
-    Enter BENVOLIO and MERCUTIO
-    Enter BENVOLIO and ROMEO
-    Enter CAPULET
-    Enter CAPULET
-    Enter CAPULET and Nurse
-    Enter CAPULET in his gown, and LADY CAPULET
-    Enter CAPULET, LADY CAPULET, and others
-    Enter CAPULET, LADY CAPULET, and PARIS
-    Enter CAPULET, LADY CAPULET, Nurse, and two Servingmen
-    Enter CAPULET, PARIS, and Servant
-    Enter CAPULET, with JULIET and others of his house, meeting the Guests and Maskers
     Enter Chorus
     Enter Citizens, & c
-    Enter FRIAR JOHN
-    Enter FRIAR LAURENCE
-    Enter FRIAR LAURENCE
-    Enter FRIAR LAURENCE and PARIS
-    Enter FRIAR LAURENCE and PARIS, with Musicians
-    Enter FRIAR LAURENCE and ROMEO
-    Enter FRIAR LAURENCE, with a basket
-    Enter JULIET
-    Enter JULIET
-    Enter JULIET
-    Enter JULIET
-    Enter JULIET
-    Enter JULIET
-    Enter JULIET and Nurse
-    Enter LADY CAPULET
-    Enter LADY CAPULET
-    Enter LADY CAPULET
-    Enter LADY CAPULET and Nurse
-    Enter LADY CAPULET and Nurse
-    Enter MERCUTIO, BENVOLIO, Page, and Servants
-    Enter MONTAGUE and LADY MONTAGUE
-    Enter MONTAGUE and others
     Enter Nurse
     Enter Nurse
-    Enter Nurse and PETER
-    Enter Nurse and PETER
     Enter Nurse, to the chamber
     Enter Nurse, with cords
-    Enter PARIS, and his Page bearing flowers and a torch
-    Enter PETER
-    Enter Prince, attended; MONTAGUE, CAPULET, their Wives, and others
-    Enter PRINCE, with Attendants
-    Enter ROMEO
-    Enter ROMEO
-    Enter ROMEO
-    Enter ROMEO
-    Enter ROMEO
-    Enter ROMEO
-    Enter ROMEO
-    Enter ROMEO
-    Enter ROMEO and BALTHASAR, with a torch, mattock, & c
-    Enter ROMEO and JULIET above, at the window
-    Enter ROMEO, MERCUTIO, BENVOLIO, with five or six Maskers, Torch-bearers, and others
-    Enter SAMPSON and GREGORY, of the house of Capulet, armed with swords and bucklers
     Enter, several of both houses, who join the fray; then enter Citizens, with clubs
-    Enter the PRINCE and Attendants
     Enter three or four Servingmen, with spits, logs, and baskets
-    Enter TYBALT
-    Enter TYBALT and others
-    Enter Watch, with the Page of PARIS
     enters the confines of a tavern claps me his sword
     Enters the tomb
     Environed with all these hideous fears?
@@ -880,16 +819,6 @@
     Exeunt
     Exeunt
     Exeunt
-    Exeunt all but JULIET and Nurse
-    Exeunt all but MONTAGUE, LADY MONTAGUE, and BENVOLIO
-    Exeunt CAPULET and PARIS
-    Exeunt CAPULET, LADY CAPULET, PARIS, and FRIAR LAURENCE
-    Exeunt JULIET and Nurse
-    Exeunt LADY CAPULET and Nurse
-    Exeunt LADY CAPULET and Nurse
-    Exeunt MERCUTIO and BENVOLIO
-    Exeunt MERCUTIO and BENVOLIO
-    Exeunt MONTAGUE and LADY MONTAGUE
     Exit
     Exit
     Exit
@@ -911,14 +840,10 @@
     Exit, above
     Exit, above
     Exit above
-    Exit BALTHASAR
     Exit First Servant
     Exit First Servant
-    Exit FRIAR LAURENCE
     Exit Page
-    Exit PETER
     Exit Romeo
-    Exit ROMEO
     Exit Second Servant
     Exit Servant
     eye but such an eye would spy out such a quarrel?
@@ -932,7 +857,6 @@
     Faith, I know not what to say.
     Faith, we may put up our pipes, and be gone.
     Falls
-    Falls on ROMEO's body, and dies
     fantasticoes; these new tuners of accents! 'By Jesu,
     Farewell!
     Farewell, ancient lady; farewell,
@@ -1566,10 +1490,8 @@
     Jacks; and if I cannot, I'll find those that shall.
     Jesu Maria, what a deal of brine
     Jesu, what haste? can you not stay awhile?
-    JULIET appears above at a window
     Juliet, on Thursday early will I rouse ye:
     Juliet, the county stays.
-    JULIET wakes
     Just in her case! O woful sympathy!
     Just opposite to what thou justly seem'st,
     Killing that love which thou hast vow'd to cherish;
@@ -1584,7 +1506,6 @@
     'lady, lady, lady.'
     lay knife aboard; but she, good soul, had as lief
     Laying down her dagger
-    Laying PARIS in the tomb
     Leap to these arms, untalk'd of and unseen.
     Leave me, and do the thing I bid thee do.
     Lest in this marriage he should be dishonour'd,
@@ -2106,13 +2027,7 @@
     Ready to go, but never to return.
     Rebellious subjects, enemies to peace,
     Receive in either by this dear encounter.
-    Re-enter BENVOLIO
-    Re-enter JULIET, above
-    Re-enter JULIET, above
     Re-enter Nurse
-    Re-enter others of the Watch, with FRIAR LAURENCE
-    Re-enter some of the Watch, with BALTHASAR
-    Re-enter TYBALT
     Remembering how I love thy company.
     Remnants of packthread and old cakes of roses,
     Rest you merry!
@@ -2250,7 +2165,6 @@
     Sitting in the sun under the dove-house wall;
     Sleep dwell upon thine eyes, peace in thy breast!
     Sleep for a week; for the next night, I warrant,
-    Snatching ROMEO's dagger
     So early waking, what with loathsome smells,
     So early walking did I see your son:
     So fairly bound? O that deceit should dwell
@@ -2592,7 +2506,6 @@
     They fight
     They fight
     They fight
-    They fight; TYBALT falls
     They have made worms' meat of me: I have it,
     they list.
     They must take it in sense that feel it.
@@ -2772,7 +2685,6 @@
     To help me sort such needful ornaments
     To help to take her from her borrow'd grave,
     to in a month.
-    [To JULIET] If I profane with my unworthiest hand
     To Juliet's grave; for there must I use thee.
     To know our further pleasure in this case,
     To Lammas-tide?
@@ -2876,7 +2788,6 @@
     Tybalt, that murderer, which way ran he?
     Tybalt, the kinsman of old Capulet,
     Tybalt, the reason that I have to love thee
-    TYBALT under ROMEO's arm stabs MERCUTIO, and flies with his followers
     Tybalt, you rat-catcher, will you walk?
     tying his new shoes with old riband? and yet thou
     uncle Capulet, his wife and daughters; my fair niece
@@ -3280,3 +3191,41 @@
     Your plaintain-leaf is excellent for that.
     Your tributary drops belong to woe,
     Your worship in that sense may call him 'man.'
+First Citizen
+First Citizen
+First Citizen
+First Musician
+First Musician
+First Musician
+First Musician
+First Musician
+First Musician
+First Musician
+First Musician
+First Musician
+First Servant
+First Servant
+First Servant
+First Servant
+First Watchman
+First Watchman
+First Watchman
+First Watchman
+First Watchman
+First Watchman
+Romeo and Juliet
+Second Capulet
+Second Capulet
+Second Musician
+Second Musician
+Second Musician
+Second Servant
+Second Servant
+Second Servant
+Second Servant
+Second Servant
+Second Servant
+Second Watchman
+Shakespeare homepage | Romeo and Juliet | Entire play
+Third Musician
+Third Watchman

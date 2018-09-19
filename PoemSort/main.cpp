@@ -80,6 +80,24 @@ bool IsToSkip(char ch) {
 }
 
 /**
+ * Checks whether string should be shown or not
+ */
+bool IsSignificant(const char* string) {
+  bool hasCaps = false;
+  bool isOneWord = true;
+  while (*string != END) {
+    if (IsUpperLetter(*string) && IsUpperLetter(*(string + 1))) {
+      hasCaps = true;
+    }
+    if (!IsToSkip(*string) && *(string + 1) == ' ' && !IsToSkip(*(string + 1))) {
+      isOneWord = false;
+    }
+    ++string;
+  }
+  return !hasCaps && !isOneWord;
+}
+
+/**
  * Writes strings of text in order corresponding to the ptr_arr to the file
  *
  * @param [in] ptr_arr Array of pointers of strings - in that order they will be written
@@ -89,7 +107,7 @@ void WriteStringsToFile(const Array<char *> &ptr_arr, const char *file_name) {
   std::ofstream os(DirPrefixes::OUT_DIR + file_name, std::ofstream::out);
   for (size_t i = 0; i < ptr_arr.size; i++) {
     // Skip heroes names and etc.
-    if (*ptr_arr[i] != ' ') {
+    if (!IsSignificant(ptr_arr[i])) {
       continue;
     }
     os << ptr_arr[i] << std::endl;
