@@ -19,6 +19,16 @@
 const double EPSILON = 0.0000000000001;
 
 /**
+ * Compares two double values with epsilon
+ *
+ * @param [in] epsilon Allowed distance
+ * @return True if the distance between them less then epsilon
+ */
+bool DoubleEqual(double first, double second, double epsilon) {
+  return std::abs(first - second) < epsilon;
+}
+
+/**
  * Solves the linear equation \f$ ax + b = 0 \f$
  *
  * @param [in] a
@@ -27,7 +37,7 @@ const double EPSILON = 0.0000000000001;
  * @note \p a must not be zero
  */
 Roots LinearSolver(double a, double b) {
-  assert(a != 0);
+  assert(!DoubleEqual(a, 0, EPSILON));
   Roots roots(1, FINITE);
   *roots.roots_ = -b / a;
   return roots;
@@ -44,18 +54,8 @@ Roots LinearSolver(double a, double b) {
  * @note \p a must not be zero
  */
 double Determinant(double a, double b, double c) {
-  assert (a != 0);
+  assert(!DoubleEqual(a, 0, EPSILON));
   return b * b - 4 * a * c;
-}
-
-/**
- * Compares two double values with epsilon
- *
- * @param [in] epsilon Allowed distance
- * @return True if the distance between them less then epsilon
- */
-bool DoubleEqual(double first, double second, double epsilon) {
-  return std::abs(first - second) < epsilon;
 }
 
 /**
@@ -68,7 +68,7 @@ bool DoubleEqual(double first, double second, double epsilon) {
  * @note \p a must not be zero
  */
 Roots QuadraticSolver(double a, double b, double c) {
-  assert(a != 0);
+  assert(!DoubleEqual(a, 0, EPSILON));
   double d = Determinant(a, b, c);
   if (DoubleEqual(d, 0, EPSILON)) {
     Roots roots(1, FINITE);
@@ -110,7 +110,7 @@ Polynomial::Polynomial(const double params[], size_t params_size) {
   }
   size_t first_non_zero = params_size;
   for (size_t i = 0; i < params_size; i++) {
-    if (params[i] != 0) {
+    if (!DoubleEqual(params[i], 0, EPSILON)) {
       first_non_zero = i;
       break;
     }
