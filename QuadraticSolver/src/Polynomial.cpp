@@ -57,6 +57,7 @@ double Determinant(double a, double b, double c) {
 Roots QuadraticSolver(double a, double b, double c) {
   assert(a != 0);
   double d = Determinant(a, b, c);
+  /* Everything is allright except one nuance, double numbers should be compared with epsilon, okay? */
   if (d == 0) {
     Roots roots(1, FINITE);
     *roots.roots_ = -b / (2 * a);
