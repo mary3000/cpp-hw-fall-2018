@@ -1,0 +1,188 @@
+\hypertarget{main_8cpp}{}\section{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.\+cpp@{main.\+cpp}}
+{\ttfamily \#include $<$fstream$>$}\newline
+Include dependency graph for main.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=136pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_array}{Array$<$ T $>$}}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespace_dir_prefixes}{Dir\+Prefixes}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8cpp_a2b75a70979f9c9e9d5ae567c62d28b66}{Initialize\+With\+String\+Pointers}} (\mbox{\hyperlink{class_array}{Array}}$<$ char $\ast$$>$ \&ptr\+\_\+arr, const \mbox{\hyperlink{class_array}{Array}}$<$ char $>$ \&text)
+\item 
+\mbox{\Hypertarget{main_8cpp_a2e4a43b7c017762fadf79fefce82638f}\label{main_8cpp_a2e4a43b7c017762fadf79fefce82638f}} 
+bool {\bfseries Is\+Upper\+Letter} (char ch)
+\item 
+\mbox{\Hypertarget{main_8cpp_ab9e67e407e758481f5d94e47bc3eecdd}\label{main_8cpp_ab9e67e407e758481f5d94e47bc3eecdd}} 
+bool {\bfseries Is\+Small\+Letter} (char ch)
+\item 
+bool \mbox{\hyperlink{main_8cpp_aecdf0778c46f5140879492499a4c8fe9}{Is\+To\+Skip}} (char ch)
+\item 
+void \mbox{\hyperlink{main_8cpp_a8366204020f6a1a8b221399293384f3c}{Write\+Strings\+To\+File}} (const \mbox{\hyperlink{class_array}{Array}}$<$ char $\ast$$>$ \&ptr\+\_\+arr, const char $\ast$file\+\_\+name)
+\item 
+int \mbox{\hyperlink{main_8cpp_a2e50b700aae1b9e826153f966eb85630}{String\+Pointer\+Comparator}} (const void $\ast$first\+\_\+ptr, const void $\ast$second\+\_\+ptr)
+\item 
+int \mbox{\hyperlink{main_8cpp_af4a16b8bf0adfccf8b98c674b9656a01}{Reversed\+String\+Pointer\+Comparator}} (const void $\ast$first\+\_\+ptr, const void $\ast$second\+\_\+ptr)
+\item 
+void \mbox{\hyperlink{main_8cpp_a2cb4299210732597de57ebaf3c80b078}{Sort\+And\+Write}} (const \mbox{\hyperlink{class_array}{Array}}$<$ char $\ast$$>$ \&ptr\+\_\+arr, const char $\ast$file\+\_\+name, int($\ast$comp)(const void $\ast$, const void $\ast$))
+\item 
+size\+\_\+t \mbox{\hyperlink{main_8cpp_a0859e4b0ea44e961bd2213a6c5496640}{Split\+To\+Strings}} (\mbox{\hyperlink{class_array}{Array}}$<$ char $>$ \&text)
+\item 
+void \mbox{\hyperlink{main_8cpp_a92d98943c325dfe335d830d4f59f3acf}{Sort\+Poem\+Strings}} (const char $\ast$file\+\_\+name)
+\item 
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespace_dir_prefixes_a9a4ba489922044d5958f0068182679cf}\label{namespace_dir_prefixes_a9a4ba489922044d5958f0068182679cf}} 
+const std\+::string {\bfseries Dir\+Prefixes\+::\+D\+I\+R\+\_\+\+P\+R\+E\+F\+IX} = \char`\"{}../\char`\"{}
+\item 
+\mbox{\Hypertarget{namespace_dir_prefixes_a0b52703b09b89db9e1a6f1f3902bed1f}\label{namespace_dir_prefixes_a0b52703b09b89db9e1a6f1f3902bed1f}} 
+const std\+::string {\bfseries Dir\+Prefixes\+::\+O\+U\+T\+\_\+\+D\+IR} = D\+I\+R\+\_\+\+P\+R\+E\+F\+IX + \char`\"{}out/\char`\"{}
+\item 
+\mbox{\Hypertarget{namespace_dir_prefixes_a9736bba31f32018ed82c46f6d4dd5b72}\label{namespace_dir_prefixes_a9736bba31f32018ed82c46f6d4dd5b72}} 
+const std\+::string {\bfseries Dir\+Prefixes\+::\+S\+O\+R\+T\+\_\+\+P\+R\+E\+F\+IX} = \char`\"{}sorted\+\_\+\char`\"{}
+\item 
+\mbox{\Hypertarget{namespace_dir_prefixes_ad748041f9ae71019098b122aadce1244}\label{namespace_dir_prefixes_ad748041f9ae71019098b122aadce1244}} 
+const std\+::string {\bfseries Dir\+Prefixes\+::\+R\+E\+V\+E\+R\+S\+E\+\_\+\+S\+O\+R\+T\+\_\+\+P\+R\+E\+F\+IX} = \char`\"{}reverse\+\_\+sorted\+\_\+\char`\"{}
+\item 
+\mbox{\Hypertarget{main_8cpp_a7f3135269f48a01b7fa74644e49cc6d6}\label{main_8cpp_a7f3135269f48a01b7fa74644e49cc6d6}} 
+const char \mbox{\hyperlink{main_8cpp_a7f3135269f48a01b7fa74644e49cc6d6}{E\+ND}} = \textquotesingle{}\textbackslash{}0\textquotesingle{}
+\begin{DoxyCompactList}\small\item\em Special character for recognizing string end. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{main_8cpp_a91379ff5b299d6b0f44be674ae2e5614}\label{main_8cpp_a91379ff5b299d6b0f44be674ae2e5614}} 
+const char \mbox{\hyperlink{main_8cpp_a91379ff5b299d6b0f44be674ae2e5614}{U\+P\+P\+E\+R\+\_\+\+O\+F\+F\+S\+ET}} = \textquotesingle{}A\textquotesingle{} -\/ \textquotesingle{}a\textquotesingle{}
+\begin{DoxyCompactList}\small\item\em Offset for upper chars. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+M\+I\+PT $\vert$ D\+I\+HT $\vert$ 3 course $\vert$ Industrial programming ~\newline
+ Purpose\+: sort poem lexicographically
+
+\begin{DoxyAuthor}{Author}
+Mary Feofanova 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a2b75a70979f9c9e9d5ae567c62d28b66}\label{main_8cpp_a2b75a70979f9c9e9d5ae567c62d28b66}} 
+\index{main.\+cpp@{main.\+cpp}!Initialize\+With\+String\+Pointers@{Initialize\+With\+String\+Pointers}}
+\index{Initialize\+With\+String\+Pointers@{Initialize\+With\+String\+Pointers}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Initialize\+With\+String\+Pointers()}{InitializeWithStringPointers()}}
+{\footnotesize\ttfamily void Initialize\+With\+String\+Pointers (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_array}{Array}}$<$ char $\ast$$>$ \&}]{ptr\+\_\+arr,  }\item[{const \mbox{\hyperlink{class_array}{Array}}$<$ char $>$ \&}]{text }\end{DoxyParamCaption})}
+
+Initializes array with pointers to strings beginnings of the text
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em ptr\+\_\+arr} & \mbox{\hyperlink{class_array}{Array}} which will be initialized \\
+\hline
+\mbox{\texttt{ in}}  & {\em text} & Char array of strings \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_aecdf0778c46f5140879492499a4c8fe9}\label{main_8cpp_aecdf0778c46f5140879492499a4c8fe9}} 
+\index{main.\+cpp@{main.\+cpp}!Is\+To\+Skip@{Is\+To\+Skip}}
+\index{Is\+To\+Skip@{Is\+To\+Skip}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Is\+To\+Skip()}{IsToSkip()}}
+{\footnotesize\ttfamily bool Is\+To\+Skip (\begin{DoxyParamCaption}\item[{char}]{ch }\end{DoxyParamCaption})}
+
+Checks whether the char is insignificant \mbox{\Hypertarget{main_8cpp_af4a16b8bf0adfccf8b98c674b9656a01}\label{main_8cpp_af4a16b8bf0adfccf8b98c674b9656a01}} 
+\index{main.\+cpp@{main.\+cpp}!Reversed\+String\+Pointer\+Comparator@{Reversed\+String\+Pointer\+Comparator}}
+\index{Reversed\+String\+Pointer\+Comparator@{Reversed\+String\+Pointer\+Comparator}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Reversed\+String\+Pointer\+Comparator()}{ReversedStringPointerComparator()}}
+{\footnotesize\ttfamily int Reversed\+String\+Pointer\+Comparator (\begin{DoxyParamCaption}\item[{const void $\ast$}]{first\+\_\+ptr,  }\item[{const void $\ast$}]{second\+\_\+ptr }\end{DoxyParamCaption})}
+
+Compares two pointers to strings via their values from the end lexicographically
+
+\begin{DoxyNote}{Note}
+it skips all but alphabet chars, and ignores uppercase 
+\end{DoxyNote}
+\mbox{\Hypertarget{main_8cpp_a2cb4299210732597de57ebaf3c80b078}\label{main_8cpp_a2cb4299210732597de57ebaf3c80b078}} 
+\index{main.\+cpp@{main.\+cpp}!Sort\+And\+Write@{Sort\+And\+Write}}
+\index{Sort\+And\+Write@{Sort\+And\+Write}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Sort\+And\+Write()}{SortAndWrite()}}
+{\footnotesize\ttfamily void Sort\+And\+Write (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_array}{Array}}$<$ char $\ast$$>$ \&}]{ptr\+\_\+arr,  }\item[{const char $\ast$}]{file\+\_\+name,  }\item[{int($\ast$)(const void $\ast$, const void $\ast$)}]{comp }\end{DoxyParamCaption})}
+
+Sorts strings with comparator and writes the result
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em ptr\+\_\+arr} & \mbox{\hyperlink{class_array}{Array}} of pointers that will be sorted \\
+\hline
+\mbox{\texttt{ in}}  & {\em file\+\_\+name} & Name of the resulting file \\
+\hline
+\mbox{\texttt{ in}}  & {\em comp} & Comparator \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a92d98943c325dfe335d830d4f59f3acf}\label{main_8cpp_a92d98943c325dfe335d830d4f59f3acf}} 
+\index{main.\+cpp@{main.\+cpp}!Sort\+Poem\+Strings@{Sort\+Poem\+Strings}}
+\index{Sort\+Poem\+Strings@{Sort\+Poem\+Strings}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Sort\+Poem\+Strings()}{SortPoemStrings()}}
+{\footnotesize\ttfamily void Sort\+Poem\+Strings (\begin{DoxyParamCaption}\item[{const char $\ast$}]{file\+\_\+name }\end{DoxyParamCaption})}
+
+Writes to the \textquotesingle{}out/\textquotesingle{} dir three versions of file\+: 
+\begin{DoxyItemize}
+\item Same version with significant strings; 
+\item With strings sorted lexicographically; 
+\item With strings sorted lexicographically from end to beginning; 
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em file\+\_\+name} & Name of file with text\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+the file must be in the same directory as this source file 
+\end{DoxyNote}
+\mbox{\Hypertarget{main_8cpp_a0859e4b0ea44e961bd2213a6c5496640}\label{main_8cpp_a0859e4b0ea44e961bd2213a6c5496640}} 
+\index{main.\+cpp@{main.\+cpp}!Split\+To\+Strings@{Split\+To\+Strings}}
+\index{Split\+To\+Strings@{Split\+To\+Strings}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Split\+To\+Strings()}{SplitToStrings()}}
+{\footnotesize\ttfamily size\+\_\+t Split\+To\+Strings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_array}{Array}}$<$ char $>$ \&}]{text }\end{DoxyParamCaption})}
+
+Replaces {\ttfamily \textbackslash{}n} to E\+ND char, i.\+e., splits the text into c-\/style strings
+
+\begin{DoxyReturn}{Returns}
+number of strings 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8cpp_a2e50b700aae1b9e826153f966eb85630}\label{main_8cpp_a2e50b700aae1b9e826153f966eb85630}} 
+\index{main.\+cpp@{main.\+cpp}!String\+Pointer\+Comparator@{String\+Pointer\+Comparator}}
+\index{String\+Pointer\+Comparator@{String\+Pointer\+Comparator}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{String\+Pointer\+Comparator()}{StringPointerComparator()}}
+{\footnotesize\ttfamily int String\+Pointer\+Comparator (\begin{DoxyParamCaption}\item[{const void $\ast$}]{first\+\_\+ptr,  }\item[{const void $\ast$}]{second\+\_\+ptr }\end{DoxyParamCaption})}
+
+Compares two pointers to strings via their values lexicographically
+
+\begin{DoxyNote}{Note}
+it skips all but alphabet chars, and ignores uppercase 
+\end{DoxyNote}
+\mbox{\Hypertarget{main_8cpp_a8366204020f6a1a8b221399293384f3c}\label{main_8cpp_a8366204020f6a1a8b221399293384f3c}} 
+\index{main.\+cpp@{main.\+cpp}!Write\+Strings\+To\+File@{Write\+Strings\+To\+File}}
+\index{Write\+Strings\+To\+File@{Write\+Strings\+To\+File}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Write\+Strings\+To\+File()}{WriteStringsToFile()}}
+{\footnotesize\ttfamily void Write\+Strings\+To\+File (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_array}{Array}}$<$ char $\ast$$>$ \&}]{ptr\+\_\+arr,  }\item[{const char $\ast$}]{file\+\_\+name }\end{DoxyParamCaption})}
+
+Writes strings of text in order corresponding to the ptr\+\_\+arr to the file
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em ptr\+\_\+arr} & \mbox{\hyperlink{class_array}{Array}} of pointers of strings -\/ in that order they will be written \\
+\hline
+\mbox{\texttt{ in}}  & {\em file\+\_\+name} & Name of the output file \\
+\hline
+\end{DoxyParams}

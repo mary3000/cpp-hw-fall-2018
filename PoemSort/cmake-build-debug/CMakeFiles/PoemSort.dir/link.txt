@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PoemSort.dir/main.cpp.o  -o PoemSort 
