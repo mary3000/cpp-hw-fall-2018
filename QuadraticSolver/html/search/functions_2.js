@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['expectnearsolve',['ExpectNearSolve',['../class_polynomial_test.html#a3c7d6879c0b7514e67db26f1cdf053cc',1,'PolynomialTest']]]
+  ['linearsolver',['LinearSolver',['../_polynomial_8cpp.html#a1988124967fff7c9c849dadc49f4e472',1,'Polynomial.cpp']]]
 ];

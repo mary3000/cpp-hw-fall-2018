@@ -23,7 +23,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Polynomial Solver
    </div>
-   <div id="projectbrief">Tool for solving some simple polynomial equations</div>
+   <div id="projectbrief">Tool for solving some polynomial simple equations</div>
   </td>
  </tr>
  </tbody>
@@ -67,7 +67,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">Polynomial.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -87,8 +88,16 @@ Functions</h2></td></tr>
 <tr class="separator:a1988124967fff7c9c849dadc49f4e472"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e3ec224eb61c9ef7f00e42c1f299113"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_polynomial_8cpp.html#a6e3ec224eb61c9ef7f00e42c1f299113">Determinant</a> (double a, double b, double c)</td></tr>
 <tr class="separator:a6e3ec224eb61c9ef7f00e42c1f299113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f1a90facb0ff320e7f2873c973fd595"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_polynomial_8cpp.html#a7f1a90facb0ff320e7f2873c973fd595">DoubleEqual</a> (double first, double second, double epsilon)</td></tr>
+<tr class="separator:a7f1a90facb0ff320e7f2873c973fd595"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a969005121c0923c22a2c9acf3ab19f43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_roots.html">Roots</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_polynomial_8cpp.html#a969005121c0923c22a2c9acf3ab19f43">QuadraticSolver</a> (double a, double b, double c)</td></tr>
 <tr class="separator:a969005121c0923c22a2c9acf3ab19f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a596344e5a2992d2beec43b76a6294de0"><td class="memItemLeft" align="right" valign="top"><a id="a596344e5a2992d2beec43b76a6294de0"></a>
+const double&#160;</td><td class="memItemRight" valign="bottom"><b>EPSILON</b> = 0.0000000000001</td></tr>
+<tr class="separator:a596344e5a2992d2beec43b76a6294de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p class="">MIPT | DIHT | 3 course | Industrial programming <br />
@@ -137,6 +146,48 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>determinant value</dd></dl>
 <dl class="section note"><dt>Note</dt><dd><code>a</code> must not be zero </dd></dl>
+
+</div>
+</div>
+<a id="a7f1a90facb0ff320e7f2873c973fd595"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f1a90facb0ff320e7f2873c973fd595">&#9670;&nbsp;</a></span>DoubleEqual()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DoubleEqual </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>second</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>epsilon</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p class="">Compares two double values with epsilon</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">epsilon</td><td>Allowed distance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the distance between them less then epsilon </dd></dl>
 
 </div>
 </div>

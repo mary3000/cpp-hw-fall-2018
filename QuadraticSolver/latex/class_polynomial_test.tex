@@ -11,7 +11,7 @@ Inheritance diagram for Polynomial\+Test\+:\begin{figure}[H]
 \item 
 void \mbox{\hyperlink{class_polynomial_test_a4c48313f8592ad80809b7cb7e94fb4e8}{Assert\+Equal\+Solve}} (const std\+::vector$<$ double $>$ \&params, const std\+::vector$<$ double $>$ \&answer, \mbox{\hyperlink{_polynomial_8h_a4d41a8f81d16e61db1ddcce54a5f2586}{Root\+Description}} description)
 \item 
-void \mbox{\hyperlink{class_polynomial_test_a3c7d6879c0b7514e67db26f1cdf053cc}{Expect\+Near\+Solve}} (const std\+::vector$<$ double $>$ \&params, const std\+::vector$<$ double $>$ \&answer, \mbox{\hyperlink{_polynomial_8h_a4d41a8f81d16e61db1ddcce54a5f2586}{Root\+Description}} description, double error)
+void \mbox{\hyperlink{class_polynomial_test_aea4b36db491bd58b640c98eed525ce82}{Assert\+Near\+Solve}} (const std\+::vector$<$ double $>$ \&params, const std\+::vector$<$ double $>$ \&answer, \mbox{\hyperlink{_polynomial_8h_a4d41a8f81d16e61db1ddcce54a5f2586}{Root\+Description}} description, double error)
 \item 
 void \mbox{\hyperlink{class_polynomial_test_a8c21881fa8afd2134e49ffad8c3c1214}{Assert\+Throw\+Is\+Finite}} (const std\+::vector$<$ double $>$ \&params)
 \end{DoxyCompactItemize}
@@ -35,7 +35,26 @@ Checks whether the solver answer is equal to the given answer
 \hline
 \mbox{\texttt{ in}}  & {\em answer} & Expected answer \\
 \hline
-\mbox{\texttt{ in}}  & {\em description} & Expected number \\
+\mbox{\texttt{ in}}  & {\em description} & Expected root description \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_polynomial_test_aea4b36db491bd58b640c98eed525ce82}\label{class_polynomial_test_aea4b36db491bd58b640c98eed525ce82}} 
+\index{Polynomial\+Test@{Polynomial\+Test}!Assert\+Near\+Solve@{Assert\+Near\+Solve}}
+\index{Assert\+Near\+Solve@{Assert\+Near\+Solve}!Polynomial\+Test@{Polynomial\+Test}}
+\subsubsection{\texorpdfstring{Assert\+Near\+Solve()}{AssertNearSolve()}}
+{\footnotesize\ttfamily void Polynomial\+Test\+::\+Assert\+Near\+Solve (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ double $>$ \&}]{params,  }\item[{const std\+::vector$<$ double $>$ \&}]{answer,  }\item[{\mbox{\hyperlink{_polynomial_8h_a4d41a8f81d16e61db1ddcce54a5f2586}{Root\+Description}}}]{description,  }\item[{double}]{error }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Checks whether the solver answer is near by the given answer
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em params} & Coefficients of polynomial \\
+\hline
+\mbox{\texttt{ in}}  & {\em answer} & Expected answer \\
+\hline
+\mbox{\texttt{ in}}  & {\em description} & Expected root description \\
+\hline
+\mbox{\texttt{ in}}  & {\em error} & Accepted error \\
 \hline
 \end{DoxyParams}
 \mbox{\Hypertarget{class_polynomial_test_a8c21881fa8afd2134e49ffad8c3c1214}\label{class_polynomial_test_a8c21881fa8afd2134e49ffad8c3c1214}} 
@@ -49,25 +68,6 @@ Checks that \mbox{\hyperlink{class_polynomial}{Polynomial}} throws an exception 
 
 \begin{DoxyParams}[1]{Parameters}
 \mbox{\texttt{ in}}  & {\em params} & Coefficients of polynomial \\
-\hline
-\end{DoxyParams}
-\mbox{\Hypertarget{class_polynomial_test_a3c7d6879c0b7514e67db26f1cdf053cc}\label{class_polynomial_test_a3c7d6879c0b7514e67db26f1cdf053cc}} 
-\index{Polynomial\+Test@{Polynomial\+Test}!Expect\+Near\+Solve@{Expect\+Near\+Solve}}
-\index{Expect\+Near\+Solve@{Expect\+Near\+Solve}!Polynomial\+Test@{Polynomial\+Test}}
-\subsubsection{\texorpdfstring{Expect\+Near\+Solve()}{AssertNearSolve()}}
-{\footnotesize\ttfamily void Polynomial\+Test\+::\+Expect\+Near\+Solve (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ double $>$ \&}]{params,  }\item[{const std\+::vector$<$ double $>$ \&}]{answer,  }\item[{\mbox{\hyperlink{_polynomial_8h_a4d41a8f81d16e61db1ddcce54a5f2586}{Root\+Description}}}]{description,  }\item[{double}]{error }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
-
-Checks whether the solver answer is near by the given answer
-
-
-\begin{DoxyParams}[1]{Parameters}
-\mbox{\texttt{ in}}  & {\em params} & Coefficients of polynomial \\
-\hline
-\mbox{\texttt{ in}}  & {\em answer} & Expected answer \\
-\hline
-\mbox{\texttt{ in}}  & {\em number} & Expected number \\
-\hline
-\mbox{\texttt{ in}}  & {\em error} & Accepted error \\
 \hline
 \end{DoxyParams}
 

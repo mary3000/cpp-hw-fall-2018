@@ -23,7 +23,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Polynomial Solver
    </div>
-   <div id="projectbrief">Tool for solving some simple polynomial equations</div>
+   <div id="projectbrief">Tool for solving some polynomial simple equations</div>
   </td>
  </tr>
  </tbody>
@@ -82,8 +82,8 @@ Inheritance diagram for PolynomialTest:</div>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a4c48313f8592ad80809b7cb7e94fb4e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_polynomial_test.html#a4c48313f8592ad80809b7cb7e94fb4e8">AssertEqualSolve</a> (const std::vector&lt; double &gt; &amp;params, const std::vector&lt; double &gt; &amp;answer, <a class="el" href="_polynomial_8h.html#a4d41a8f81d16e61db1ddcce54a5f2586">RootDescription</a> description)</td></tr>
 <tr class="separator:a4c48313f8592ad80809b7cb7e94fb4e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c7d6879c0b7514e67db26f1cdf053cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_polynomial_test.html#a3c7d6879c0b7514e67db26f1cdf053cc">AssertNearSolve</a> (const std::vector&lt; double &gt; &amp;params, const std::vector&lt; double &gt; &amp;answer, <a class="el" href="_polynomial_8h.html#a4d41a8f81d16e61db1ddcce54a5f2586">RootDescription</a> description, double error)</td></tr>
-<tr class="separator:a3c7d6879c0b7514e67db26f1cdf053cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea4b36db491bd58b640c98eed525ce82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_polynomial_test.html#aea4b36db491bd58b640c98eed525ce82">AssertNearSolve</a> (const std::vector&lt; double &gt; &amp;params, const std::vector&lt; double &gt; &amp;answer, <a class="el" href="_polynomial_8h.html#a4d41a8f81d16e61db1ddcce54a5f2586">RootDescription</a> description, double error)</td></tr>
+<tr class="separator:aea4b36db491bd58b640c98eed525ce82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c21881fa8afd2134e49ffad8c3c1214"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_polynomial_test.html#a8c21881fa8afd2134e49ffad8c3c1214">AssertThrowIsFinite</a> (const std::vector&lt; double &gt; &amp;params)</td></tr>
 <tr class="separator:a8c21881fa8afd2134e49ffad8c3c1214"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -134,48 +134,15 @@ Protected Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">params</td><td>Coefficients of polynomial </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">answer</td><td>Expected answer </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">description</td><td>Expected number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">description</td><td>Expected root description </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a8c21881fa8afd2134e49ffad8c3c1214"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c21881fa8afd2134e49ffad8c3c1214">&#9670;&nbsp;</a></span>AssertThrowIsFinite()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void PolynomialTest::AssertThrowIsFinite </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>params</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p class="">Checks that <a class="el" href="class_polynomial.html">Polynomial</a> throws an exception in case of invalid arguments</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">params</td><td>Coefficients of polynomial </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a3c7d6879c0b7514e67db26f1cdf053cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c7d6879c0b7514e67db26f1cdf053cc">&#9670;&nbsp;</a></span>AssertNearSolve()</h2>
+<a id="aea4b36db491bd58b640c98eed525ce82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea4b36db491bd58b640c98eed525ce82">&#9670;&nbsp;</a></span>AssertNearSolve()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -224,8 +191,41 @@ Protected Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">params</td><td>Coefficients of polynomial </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">answer</td><td>Expected answer </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">number</td><td>Expected number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">description</td><td>Expected root description </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">error</td><td>Accepted error </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8c21881fa8afd2134e49ffad8c3c1214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c21881fa8afd2134e49ffad8c3c1214">&#9670;&nbsp;</a></span>AssertThrowIsFinite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PolynomialTest::AssertThrowIsFinite </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>params</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">Checks that <a class="el" href="class_polynomial.html">Polynomial</a> throws an exception in case of invalid arguments</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">params</td><td>Coefficients of polynomial </td></tr>
   </table>
   </dd>
 </dl>

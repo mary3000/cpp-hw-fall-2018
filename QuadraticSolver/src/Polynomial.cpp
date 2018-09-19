@@ -16,6 +16,8 @@
 #include <cstdlib>
 #include "Polynomial.h"
 
+const double EPSILON = 0.0000000000001;
+
 /**
  * Solves the linear equation \f$ ax + b = 0 \f$
  *
@@ -45,6 +47,17 @@ double Determinant(double a, double b, double c) {
   assert (a != 0);
   return b * b - 4 * a * c;
 }
+
+/**
+ * Compares two double values with epsilon
+ *
+ * @param [in] epsilon Allowed distance
+ * @return True if the distance between them less then epsilon
+ */
+bool DoubleEqual(double first, double second, double epsilon) {
+  return std::abs(first - second) < epsilon;
+}
+
 /**
  * Solves the quadratic equation \f$ ax^2 + bx + c = 0 \f$
  *
@@ -57,8 +70,7 @@ double Determinant(double a, double b, double c) {
 Roots QuadraticSolver(double a, double b, double c) {
   assert(a != 0);
   double d = Determinant(a, b, c);
-  /* Everything is allright except one nuance, double numbers should be compared with epsilon, okay? */
-  if (d == 0) {
+  if (DoubleEqual(d, 0, EPSILON)) {
     Roots roots(1, FINITE);
     *roots.roots_ = -b / (2 * a);
     return roots;
