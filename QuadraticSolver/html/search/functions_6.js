@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['solve',['Solve',['../class_polynomial.html#ac1a8732edb10e52f5ff4bba6aee83593',1,'Polynomial']]]
+  ['quadraticsolver',['QuadraticSolver',['../_polynomial_8cpp.html#a969005121c0923c22a2c9acf3ab19f43',1,'Polynomial.cpp']]]
 ];

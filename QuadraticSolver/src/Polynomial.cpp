@@ -24,7 +24,7 @@ const double EPSILON = 0.0000000000001;
  * @param [in] epsilon Allowed distance
  * @return True if the distance between them less then epsilon
  */
-bool DoubleEqual(double first, double second, double epsilon) {
+bool Equal(double first, double second, double epsilon) {
   return std::abs(first - second) < epsilon;
 }
 
@@ -33,11 +33,14 @@ bool DoubleEqual(double first, double second, double epsilon) {
  *
  * @param [in] a
  * @param [in] b
- *
- * @note \p a must not be zero
  */
 Roots LinearSolver(double a, double b) {
-  assert(!DoubleEqual(a, 0, EPSILON));
+  if(Equal(a, 0, EPSILON) && Equal(b, 0, EPSILON)) {
+    return Roots(0, INFINITE);
+  }
+  if (Equal(a, 0, EPSILON)) {
+    return Roots(0, FINITE);
+  }
   Roots roots(1, FINITE);
   *roots.roots_ = -b / a;
   return roots;
@@ -54,7 +57,7 @@ Roots LinearSolver(double a, double b) {
  * @note \p a must not be zero
  */
 double Determinant(double a, double b, double c) {
-  assert(!DoubleEqual(a, 0, EPSILON));
+  assert(!Equal(a, 0, EPSILON));
   return b * b - 4 * a * c;
 }
 
@@ -64,13 +67,13 @@ double Determinant(double a, double b, double c) {
  * @param [in] a
  * @param [in] b
  * @param [in] c
- *
- * @note \p a must not be zero
  */
 Roots QuadraticSolver(double a, double b, double c) {
-  assert(!DoubleEqual(a, 0, EPSILON));
+  if (Equal(a, 0, EPSILON)) {
+    return LinearSolver(b, c);
+  }
   double d = Determinant(a, b, c);
-  if (DoubleEqual(d, 0, EPSILON)) {
+  if (Equal(d, 0, EPSILON)) {
     Roots roots(1, FINITE);
     *roots.roots_ = -b / (2 * a);
     return roots;
@@ -88,18 +91,10 @@ Polynomial::Polynomial(const std::vector<double> &params)
     : Polynomial(params.data(), params.size()) {}
 
 Roots Polynomial::Solve() {
-  switch (coefficients_size_) {
-    case 0:
-      return Roots(0, INFINITE);
-    case 1:
-      return Roots(0, FINITE);
-    case 2:
-      return LinearSolver(coefficients_[0], coefficients_[1]);
-    case 3:
-      return QuadraticSolver(coefficients_[0], coefficients_[1], coefficients_[2]);
-    default:
-      return Roots(0, UNKNOWN);
+  if (coefficients_size_ <= 3) {
+    return QuadraticSolver(GetCoefficient(2), GetCoefficient(1), GetCoefficient(0));
   }
+  return Roots(0, UNKNOWN);
 }
 
 Polynomial::Polynomial(const double params[], size_t params_size) {
@@ -110,7 +105,7 @@ Polynomial::Polynomial(const double params[], size_t params_size) {
   }
   size_t first_non_zero = params_size;
   for (size_t i = 0; i < params_size; i++) {
-    if (!DoubleEqual(params[i], 0, EPSILON)) {
+    if (!Equal(params[i], 0, EPSILON)) {
       first_non_zero = i;
       break;
     }
@@ -125,6 +120,10 @@ Polynomial::Polynomial(const double params[], size_t params_size) {
 
 Polynomial::~Polynomial() {
   delete[] coefficients_;
+}
+
+double Polynomial::GetCoefficient(size_t i) {
+  return i < coefficients_size_ ? coefficients_[coefficients_size_ - i - 1] : 0;
 }
 
 Roots::Roots(size_t number, RootDescription description) :

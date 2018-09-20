@@ -76,6 +76,12 @@ class Polynomial {
    */
   Roots Solve();
 
+  /**
+   * @param i power of \f$ x \f$
+   * @return coefficient near \f$ x^i \f$ <br>
+   */
+  double GetCoefficient(size_t i);
+
  private:
   double *coefficients_ = nullptr;
   size_t coefficients_size_ = 0;

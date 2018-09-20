@@ -2,3 +2,5 @@
 \form#1:$ x^2 + 2x + 3 $
 \form#2:$ x^2 - 2x + 1 = 0 $
 \form#3:$ ax + b = 0 $
+\form#4:$ x $
+\form#5:$ x^i $

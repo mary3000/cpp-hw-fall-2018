@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['number_5f',['number_',['../struct_roots.html#ad9095b5cdb111b3aa65f3c8a6b2e7ffa',1,'Roots']]]
+  ['getcoefficient',['GetCoefficient',['../class_polynomial.html#a18791d35ed881e3f71e40d74f0d62a46',1,'Polynomial']]]
 ];

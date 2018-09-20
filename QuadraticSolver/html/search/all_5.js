@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quadraticsolver',['QuadraticSolver',['../_polynomial_8cpp.html#a969005121c0923c22a2c9acf3ab19f43',1,'Polynomial.cpp']]]
+  ['number_5f',['number_',['../struct_roots.html#ad9095b5cdb111b3aa65f3c8a6b2e7ffa',1,'Roots']]]
 ];

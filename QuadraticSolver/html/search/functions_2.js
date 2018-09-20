@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['linearsolver',['LinearSolver',['../_polynomial_8cpp.html#a1988124967fff7c9c849dadc49f4e472',1,'Polynomial.cpp']]]
+  ['equal',['Equal',['../_polynomial_8cpp.html#a9c363acc9dd7d963d5484ee6f87f679c',1,'Polynomial.cpp']]]
 ];
