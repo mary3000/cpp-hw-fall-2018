@@ -49,6 +49,39 @@ class Array {
 };
 
 /**
+ * Writes to the 'out/' dir three versions of file:
+ * <ul>
+ * <li> Same version with significant strings;
+ * <li> With strings sorted lexicographically;
+ * <li> With strings sorted lexicographically from end to beginning;
+ * </ul>
+ *
+ * @param [in] buffer Char array with data
+ * @param [in] file_name Suffix of output files
+ *
+ * @note the file must be in the same directory as this source file
+ */
+void SortPoemStrings(Array<char> &buffer, const char *file_name);
+
+int main() {
+  const std::string file_name = "RomeoAndJuliet.txt";
+  std::string path = DirPrefixes::DIR_PREFIX + file_name;
+  std::ifstream is(path, std::ios::binary | std::ios::ate);
+  std::streamsize size = is.tellg();
+  is.seekg(0, std::ios::beg);
+
+  Array<char> buffer(size + 1);
+  if (is.read(buffer.data, size)) {
+    is.close();
+    buffer.data[size] = '\n';
+    SortPoemStrings(buffer, file_name.data());
+  } else {
+    throw "Unable to read the file.\n "
+          "Check whether it exists and program has permission for reading.";
+  }
+}
+
+/**
  * Initializes array with pointers to strings beginnings of the text
  *
  * @param [out] ptr_arr Array which will be initialized
@@ -228,28 +261,7 @@ size_t SplitToStrings(Array<char> &text) {
   return ptr_num;
 }
 
-/**
- * Writes to the 'out/' dir three versions of file:
- * <ul>
- * <li> Same version with significant strings;
- * <li> With strings sorted lexicographically;
- * <li> With strings sorted lexicographically from end to beginning;
- * </ul>
- *
- * @param [in] file_name Name of file with text
- *
- * @note the file must be in the same directory as this source file
- */
-void SortPoemStrings(const char *file_name) {
-  std::string path = DirPrefixes::DIR_PREFIX + file_name;
-  std::ifstream is(path, std::ios::binary | std::ios::ate);
-  std::streamsize size = is.tellg();
-  is.seekg(0, std::ios::beg);
-
-  Array<char> buffer(size + 1);
-  if (is.read(buffer.data, size)) {
-    is.close();
-    buffer.data[size] = '\n';
+void SortPoemStrings(Array<char> &buffer, const char *file_name) {
     Array<char *> ptr_arr(SplitToStrings(buffer));
     InitializeWithStringPointers(ptr_arr, buffer);
     SortAndWrite(ptr_arr, file_name, nullptr);
@@ -257,12 +269,4 @@ void SortPoemStrings(const char *file_name) {
                  StringPointerComparator);
     SortAndWrite(ptr_arr, (DirPrefixes::REVERSE_SORT_PREFIX + file_name).data(),
                  ReversedStringPointerComparator);
-  } else {
-    throw "Unable to read the file.\n "
-          "Check whether it exists and program has permission for reading.";
-  }
-}
-
-int main() {
-  SortPoemStrings("RomeoAndJuliet.txt");
 }

@@ -21,6 +21,11 @@ class \mbox{\hyperlink{class_array}{Array$<$ T $>$}}
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
+void \mbox{\hyperlink{main_8cpp_a090e8e4916b48a0ee246d693b47c03bd}{Sort\+Poem\+Strings}} (\mbox{\hyperlink{class_array}{Array}}$<$ char $>$ \&buffer, const char $\ast$file\+\_\+name)
+\item 
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\item 
 void \mbox{\hyperlink{main_8cpp_a2b75a70979f9c9e9d5ae567c62d28b66}{Initialize\+With\+String\+Pointers}} (\mbox{\hyperlink{class_array}{Array}}$<$ char $\ast$$>$ \&ptr\+\_\+arr, const \mbox{\hyperlink{class_array}{Array}}$<$ char $>$ \&text)
 \item 
 \mbox{\Hypertarget{main_8cpp_a2e4a43b7c017762fadf79fefce82638f}\label{main_8cpp_a2e4a43b7c017762fadf79fefce82638f}} 
@@ -42,11 +47,6 @@ int \mbox{\hyperlink{main_8cpp_af4a16b8bf0adfccf8b98c674b9656a01}{Reversed\+Stri
 void \mbox{\hyperlink{main_8cpp_a2cb4299210732597de57ebaf3c80b078}{Sort\+And\+Write}} (const \mbox{\hyperlink{class_array}{Array}}$<$ char $\ast$$>$ \&ptr\+\_\+arr, const char $\ast$file\+\_\+name, int($\ast$comp)(const void $\ast$, const void $\ast$))
 \item 
 size\+\_\+t \mbox{\hyperlink{main_8cpp_a0859e4b0ea44e961bd2213a6c5496640}{Split\+To\+Strings}} (\mbox{\hyperlink{class_array}{Array}}$<$ char $>$ \&text)
-\item 
-void \mbox{\hyperlink{main_8cpp_a92d98943c325dfe335d830d4f59f3acf}{Sort\+Poem\+Strings}} (const char $\ast$file\+\_\+name)
-\item 
-\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
-int {\bfseries main} ()
 \end{DoxyCompactItemize}
 \subsection*{Variables}
 \begin{DoxyCompactItemize}
@@ -136,11 +136,11 @@ Sorts strings with comparator and writes the result
 \mbox{\texttt{ in}}  & {\em comp} & Comparator \\
 \hline
 \end{DoxyParams}
-\mbox{\Hypertarget{main_8cpp_a92d98943c325dfe335d830d4f59f3acf}\label{main_8cpp_a92d98943c325dfe335d830d4f59f3acf}} 
+\mbox{\Hypertarget{main_8cpp_a090e8e4916b48a0ee246d693b47c03bd}\label{main_8cpp_a090e8e4916b48a0ee246d693b47c03bd}} 
 \index{main.\+cpp@{main.\+cpp}!Sort\+Poem\+Strings@{Sort\+Poem\+Strings}}
 \index{Sort\+Poem\+Strings@{Sort\+Poem\+Strings}!main.\+cpp@{main.\+cpp}}
 \subsubsection{\texorpdfstring{Sort\+Poem\+Strings()}{SortPoemStrings()}}
-{\footnotesize\ttfamily void Sort\+Poem\+Strings (\begin{DoxyParamCaption}\item[{const char $\ast$}]{file\+\_\+name }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void Sort\+Poem\+Strings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_array}{Array}}$<$ char $>$ \&}]{buffer,  }\item[{const char $\ast$}]{file\+\_\+name }\end{DoxyParamCaption})}
 
 Writes to the \textquotesingle{}out/\textquotesingle{} dir three versions of file\+: 
 \begin{DoxyItemize}
@@ -151,7 +151,9 @@ Writes to the \textquotesingle{}out/\textquotesingle{} dir three versions of fil
 
 
 \begin{DoxyParams}[1]{Parameters}
-\mbox{\texttt{ in}}  & {\em file\+\_\+name} & Name of file with text\\
+\mbox{\texttt{ in}}  & {\em buffer} & Char array with data \\
+\hline
+\mbox{\texttt{ in}}  & {\em file\+\_\+name} & Suffix of output files\\
 \hline
 \end{DoxyParams}
 \begin{DoxyNote}{Note}

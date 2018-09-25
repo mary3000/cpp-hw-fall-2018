@@ -94,6 +94,11 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a090e8e4916b48a0ee246d693b47c03bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a090e8e4916b48a0ee246d693b47c03bd">SortPoemStrings</a> (<a class="el" href="class_array.html">Array</a>&lt; char &gt; &amp;buffer, const char *file_name)</td></tr>
+<tr class="separator:a090e8e4916b48a0ee246d693b47c03bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top"><a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b75a70979f9c9e9d5ae567c62d28b66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a2b75a70979f9c9e9d5ae567c62d28b66">InitializeWithStringPointers</a> (<a class="el" href="class_array.html">Array</a>&lt; char *&gt; &amp;ptr_arr, const <a class="el" href="class_array.html">Array</a>&lt; char &gt; &amp;text)</td></tr>
 <tr class="separator:a2b75a70979f9c9e9d5ae567c62d28b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e4a43b7c017762fadf79fefce82638f"><td class="memItemLeft" align="right" valign="top"><a id="a2e4a43b7c017762fadf79fefce82638f"></a>
@@ -116,11 +121,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsSmallLetter</b> (ch
 <tr class="separator:a2cb4299210732597de57ebaf3c80b078"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0859e4b0ea44e961bd2213a6c5496640"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a0859e4b0ea44e961bd2213a6c5496640">SplitToStrings</a> (<a class="el" href="class_array.html">Array</a>&lt; char &gt; &amp;text)</td></tr>
 <tr class="separator:a0859e4b0ea44e961bd2213a6c5496640"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92d98943c325dfe335d830d4f59f3acf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a92d98943c325dfe335d830d4f59f3acf">SortPoemStrings</a> (const char *file_name)</td></tr>
-<tr class="separator:a92d98943c325dfe335d830d4f59f3acf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top"><a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> ()</td></tr>
-<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -297,8 +297,8 @@ const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 
 </div>
 </div>
-<a id="a92d98943c325dfe335d830d4f59f3acf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92d98943c325dfe335d830d4f59f3acf">&#9670;&nbsp;</a></span>SortPoemStrings()</h2>
+<a id="a090e8e4916b48a0ee246d693b47c03bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a090e8e4916b48a0ee246d693b47c03bd">&#9670;&nbsp;</a></span>SortPoemStrings()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -306,9 +306,19 @@ const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
         <tr>
           <td class="memname">void SortPoemStrings </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>file_name</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_array.html">Array</a>&lt; char &gt; &amp;&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>file_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -322,7 +332,8 @@ With strings sorted lexicographically from end to beginning; </li>
 </ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">file_name</td><td>Name of file with text</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buffer</td><td>Char array with data </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">file_name</td><td>Suffix of output files</td></tr>
   </table>
   </dd>
 </dl>
