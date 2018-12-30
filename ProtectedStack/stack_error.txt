@@ -1,0 +1,24 @@
+Ouch! Your beautiful shiny stack is damaged!
+Reason: stack is overflowed.
+Stack<i> [0x7ffec041cfe8] {
+	header canary: badc0ffee0ddf00d;
+	internal buffer {
+		header canary: badc0ffee0ddf00d;
+		data [15/8] [0x194bcb8] {
+			[0]: 0;
+			[1]: 1;
+			[2]: 2;
+			[3]: 3;
+			[4]: 4;
+			[5]: -559038737;
+			[6]: -559038737;
+			[7]: -559038737;
+		}
+		footer canary: badc0ffee0ddf00d;
+	}
+	offset: 15 (FAILED!);
+	size: 8;
+	checksum: 585830661;
+	data checksum: 2458063981;
+	footer canary: badc0ffee0ddf00d;
+}

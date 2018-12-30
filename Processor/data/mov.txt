@@ -1,0 +1,6 @@
+mov RAX 3
+mov RBX 4
+push RAX
+push RBX
+mul
+out

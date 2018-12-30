@@ -1,3 +1,0 @@
-/media/mary/Data/git/cpp-hw-fall-2018/PoemSort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/media/mary/Data/git/cpp-hw-fall-2018/PoemSort/cmake-build-debug/CMakeFiles/edit_cache.dir
-/media/mary/Data/git/cpp-hw-fall-2018/PoemSort/cmake-build-debug/CMakeFiles/PoemSort.dir

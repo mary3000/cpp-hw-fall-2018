@@ -1,0 +1,14 @@
+push 12
+push 8
+gcd:
+dup 2
+push 0
+je ans
+pop
+swp
+dup 2
+pop
+mod
+jmp gcd
+ans:
+out

@@ -12,7 +12,7 @@
  * List of some parts of directories to construct new files
  */
 namespace DirPrefixes {
-const std::string DIR_PREFIX = "../";
+const std::string DIR_PREFIX = "../PoemSort/";
 const std::string OUT_DIR = DIR_PREFIX + "out/";
 const std::string SORT_PREFIX = "sorted_";
 const std::string REVERSE_SORT_PREFIX = "reverse_sorted_";
@@ -76,8 +76,7 @@ int main() {
     buffer.data[size] = '\n';
     SortPoemStrings(buffer, file_name.data());
   } else {
-    throw "Unable to read the file.\n "
-          "Check whether it exists and program has permission for reading.";
+    throw "Unable to read the file. Check whether it exists and program has permission for reading.";
   }
 }
 
